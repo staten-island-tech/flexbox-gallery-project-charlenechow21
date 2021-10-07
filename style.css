@@ -6,6 +6,9 @@ body,
   box-sizing: border-box;
   font-size: 62.5%; /* 100% is 16px, 62.5% is 10px */
 }
+body {
+  background-color: ;
+}
 .rem-size {
-  font-size: 2rem;
+  font-size: 10rem;
 }
