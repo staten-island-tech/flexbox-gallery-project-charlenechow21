@@ -72,3 +72,8 @@ body,
   margin-bottom: 5rem;
   color: #582f0e;
 }
+@media screen and (max-width: 800px) {
+  background {
+    width: auto;
+  }
+}
