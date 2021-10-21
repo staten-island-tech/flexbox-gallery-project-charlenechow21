@@ -72,8 +72,53 @@ body,
   margin-bottom: 5rem;
   color: #582f0e;
 }
-@media screen and (max-width: 800px) {
-  background {
-    width: auto;
+@media (max-width: 400px) {
+  #header {
+    font-size: 5rem;
+    margin: 4rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .monkey-row {
+    flex-direction: column;
+  }
+}
+@media (orientation: landscape) and (max-width: 1024px) {
+  #header {
+    font-size: 7rem;
+    margin: 5rem;
+  }
+  .monkey-item {
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem 3rem;
+  }
+  .monkey-img {
+    height: 20rem;
+  }
+  .monkey-des {
+    font-size: 1.5rem;
+  }
+}
+@media (orientation: portrait) and (max-width: 768px) {
+  #header {
+    font-size: 9rem;
+    margin: 6rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .monkey-row {
+    flex-direction: column;
+  }
+  .monkey-item {
+    margin: 4.5rem 0rem;
+  }
+  .monkey-img {
+    height: 40rem;
+  }
+  .monkey-des {
+    font-size: 3rem;
   }
 }
