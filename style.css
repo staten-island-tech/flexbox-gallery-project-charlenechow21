@@ -48,27 +48,25 @@ body,
   height: 25rem;
   border-radius: 2rem;
   box-shadow: 0rem 0rem 2rem black;
+  transition: all 0.5s ease-in-out;
 }
 .monkey-img:hover {
   box-shadow: 0rem 0rem 3rem black;
-  transition: all 0.5s ease-in-out;
 }
 .monkey-des {
   font-size: 2rem;
   margin-top: 1rem;
   color: #582f0e;
+  transition: 0.5s;
 }
 .bottle-monkey-des:hover {
   transform: skew(15deg);
-  transition: 0.5s;
 }
 .lollipop-monkey-des:hover {
   transform: scale(0.9);
-  transition: 0.5s;
 }
 .sprite-monkey-des:hover {
   transform: skew(-15deg);
-  transition: 0.5s;
 }
 .about {
   font-size: 2rem;
