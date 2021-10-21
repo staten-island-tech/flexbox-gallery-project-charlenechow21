@@ -72,7 +72,7 @@ body,
   margin-bottom: 5rem;
   color: #582f0e;
 }
-@media (orientation: landscape) and (max-width: 1024px) {
+@media (orientation: landscape) and (max-width: 1400px) {
   #header {
     font-size: 7rem;
     margin: 5rem;
@@ -89,7 +89,7 @@ body,
     font-size: 1.5rem;
   }
 }
-@media (orientation: portrait) and (max-width: 768px) {
+@media (orientation: portrait) and (max-width: 1030px) {
   #header {
     font-size: 9rem;
     margin: 6rem;
@@ -110,7 +110,7 @@ body,
     font-size: 3rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   #header {
     font-size: 5rem;
     margin: 4rem;
@@ -120,5 +120,14 @@ body,
   }
   .monkey-row {
     flex-direction: column;
+  }
+  .monkey-item {
+    margin: 2rem 0rem;
+  }
+  .monkey-img {
+    height: 20rem;
+  }
+  .monkey-des {
+    font-size: 1.5rem;
   }
 }
