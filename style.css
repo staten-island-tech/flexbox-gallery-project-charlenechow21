@@ -72,18 +72,6 @@ body,
   margin-bottom: 5rem;
   color: #582f0e;
 }
-@media (max-width: 400px) {
-  #header {
-    font-size: 5rem;
-    margin: 4rem;
-  }
-  .container {
-    flex-direction: column;
-  }
-  .monkey-row {
-    flex-direction: column;
-  }
-}
 @media (orientation: landscape) and (max-width: 1024px) {
   #header {
     font-size: 7rem;
@@ -120,5 +108,17 @@ body,
   }
   .monkey-des {
     font-size: 3rem;
+  }
+}
+@media (max-width: 400px) {
+  #header {
+    font-size: 5rem;
+    margin: 4rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .monkey-row {
+    flex-direction: column;
   }
 }
